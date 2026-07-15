@@ -24,6 +24,7 @@ This list is vendor-neutral. Entries are included on technical merit, and mainta
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) - Voluntary framework whose Govern/Map/Measure/Manage functions apply directly to agent oversight.
 - [EU AI Act](https://artificialintelligenceact.eu/) - Article 14 ("human oversight") is the regulatory backbone for human-in-the-loop requirements on high-risk AI.
 - [MITRE ATLAS](https://atlas.mitre.org/) - Adversarial threat landscape for AI systems; useful for threat-modeling agent attack paths.
+- [Google Agent2Agent Protocol (A2A)](https://github.com/google-a2a/A2A) - Open protocol for secure interoperability between AI agents, specifying how agents delegate tasks, assert identity, and exchange structured results.
 
 ## Policy & Authorization Engines
 
@@ -55,6 +56,7 @@ The "who approved this, and prove it" half — escalating consequential actions 
 ## MCP & Tool-Call Security
 
 - [Model Context Protocol](https://modelcontextprotocol.io/) - The protocol spec connecting agents to tools and data; its security guidance is essential reading for tool-call risk.
+- [Arcade AI](https://github.com/ArcadeAI/arcade-ai) - Framework for building and authorizing MCP servers, providing tool-call permission management and secure authentication for agent-accessible APIs.
 
 ## Sandboxing & Isolation
 
